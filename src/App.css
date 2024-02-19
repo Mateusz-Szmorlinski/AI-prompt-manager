@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background: rgb(30, 30, 30);
+    font-family: 'Poppins', sans-serif;
+}
+
+#positive{
+    position: relative;
+    margin: 1rem;
+    margin-top: 3.5rem;
+    outline: 1px solid lightgreen;
+    box-shadow: 0 0 20px lawngreen;
+}
+
+#positive-button{
+    position: relative;
+    margin: 1rem;
+    color: white;
+}
+
+#positive-button:hover{
+    color: black;
+    box-shadow: 0 0 8px #32FF20;
+    border-color: #32FF20;
+}
+
+#positive-button::before{
+    background: linear-gradient(-90deg, #32FF20, #55FF40, #77FF5F, #99FF7E, #BBFF9D);
+}
+
+#negative{
+    position: relative;
+    margin: 1rem;
+    outline: 1px solid lightcoral;
+    box-shadow: 0 0 20px tomato;
+}
+
+#negative-button{
+    position: relative;
+    margin: 1rem;
+    color: white;
+}
+
+#negative-button:hover{
+    color: black;
+    box-shadow: 0 0 8px #E21111;
+    border-color: #E21111;
+}
+
+#negative-button::before{
+    background: linear-gradient(-90deg, #E21111, #EA3333, #F15454, #F87676, #FF9797);
+}
+
+#copy{
+    margin: 1rem;
+    position: absolute;
+    right: 1.5rem;
+    background: transparent;
+    color: white;
+}
+
+#copy:hover{
+    box-shadow: 1px -1px 3px #E21111,
+        -1px 1px 3px #32FF20;
+    color: black;
+}
+
+#copy::before{
+    background: linear-gradient(-90deg, #E21111, #B64D15, #8A8819, #5EC41D, #32FF20);
+}
+
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+    padding: 0.1rem;
+}
+
+.button::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 0%;
+    height: 100%;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.button:hover::before{
+    width: 150%;
+}
+
+.button-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* @media screen and (max-width: 1600px) {
+    #positive-button, #negative-button{
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    #positive-button, #negative-button{
+        bottom: 0;
+    }
+} */
+
+@keyframes move {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
