@@ -2,8 +2,6 @@
 
 Short description of your project, including its purpose and key features.
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 ## Getting Started
 
 Provide instructions on how to set up your project locally. Include prerequisites and installation steps.
