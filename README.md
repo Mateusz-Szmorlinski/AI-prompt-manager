@@ -24,8 +24,6 @@ To use the AI Prompt Manager on your local machine, follow these steps:
 Access the AI Prompt Manager in your web browser at http://localhost:3000.
 Begin creating and managing your prompts better.
 
-## License
 
-This project is available under the MIT License. See the LICENSE file for more information.
 
-Thank you for using AI Prompt Manager! 🤖✨
+**Thank you for using AI Prompt Manager! 🤖✨**
