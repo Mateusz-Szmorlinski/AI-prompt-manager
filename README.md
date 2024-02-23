@@ -1,20 +1,31 @@
-# Project Name
+# AI Prompt Manager
+## Description
 
-Short description of your project, including its purpose and key features.
+AI Prompt Manager is a React.js project designed to facilitate the creation and modification of complex prompts for AI models. It provides a user-friendly interface for managing prompts that can be used for various natural language processing tasks.
+## Technologies
 
-## Getting Started
+- React.js
+- JavaScript
+- HTML
+- CSS
 
-Provide instructions on how to set up your project locally. Include prerequisites and installation steps.
+## How to Setup and Use
 
-### Prerequisites
+To use the AI Prompt Manager on your local machine, follow these steps:
 
-List any software or libraries that users need to have installed before they can use your project.
+1. Clone the repository to your local machine using your command line interface:
+    - `git clone https://github.com/Mateusz-Szmorlinski/AI-prompt-manager.git`
+2. Navigate to the cloned directory.
+3. Install dependencies by running the following command in your command line interface:
+   - `npm install`
+4. Start the development server by running:
+   - `npm start`
 
-- Prerequisite 1
-- Prerequisite 2
+Access the AI Prompt Manager in your web browser at http://localhost:3000.
+Begin creating and managing your prompts better.
 
-### Installation
+## License
 
-1. Clone the repository
-   ```sh
-   git clone https://github.com/your_username/your_project.git
+This project is available under the MIT License. See the LICENSE file for more information.
+
+Thank you for using AI Prompt Manager! 🤖✨
