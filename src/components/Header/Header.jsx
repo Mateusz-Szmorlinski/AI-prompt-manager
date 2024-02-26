@@ -6,7 +6,7 @@ function Header() {
     return(
         <>
         <header>
-            <h1>AI prompt manager</h1>
+            <h1>Prompt manager</h1>
         </header>
         <div className="border"></div>
         </>
