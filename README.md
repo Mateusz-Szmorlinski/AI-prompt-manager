@@ -21,7 +21,7 @@ To use the AI Prompt Manager on your local machine, follow these steps:
 4. Start the development server by running:
    - `npm start`
 
-Access the AI Prompt Manager in your web browser at http://localhost:3000.
+Access the Prompt Manager in your web browser at http://localhost:3000.
 Begin creating and managing your prompts better.
 
 
