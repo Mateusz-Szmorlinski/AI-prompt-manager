@@ -1,7 +1,7 @@
 # Prompt Manager
 ## Description
 
-AI Prompt Manager is a React.js project designed to facilitate the creation and modification of complex prompts for AI models. It provides a user-friendly interface for managing prompts that can be used for various natural language processing tasks.
+Prompt Manager is a React.js project designed to facilitate the creation and modification of complex prompts for AI models. It provides a user-friendly interface for managing prompts that can be used for various natural language processing tasks.
 ## Technologies
 
 - React.js
@@ -11,7 +11,7 @@ AI Prompt Manager is a React.js project designed to facilitate the creation and 
 
 ## How to Setup and Use
 
-To use the AI Prompt Manager on your local machine, follow these steps:
+To use the Prompt Manager on your local machine, follow these steps:
 
 1. Clone the repository to your local machine using your command line interface:
     - `git clone https://github.com/Mateusz-Szmorlinski/AI-prompt-manager.git`
