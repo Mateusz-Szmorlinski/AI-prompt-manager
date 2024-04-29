@@ -2,6 +2,8 @@
 ## Description
 
 Prompt Manager is a React.js project designed to facilitate the creation and modification of complex prompts for AI models. It provides a user-friendly interface for managing prompts that can be used for various natural language processing tasks.
+
+You can try it out at https://prompt-manager-e0f62.firebaseapp.com.
 ## Technologies
 
 - React.js
